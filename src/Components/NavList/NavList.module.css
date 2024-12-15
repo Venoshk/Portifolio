@@ -1,0 +1,14 @@
+.li{
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 700;
+}
+
+.li:hover{
+    color: #8b0faa;
+    transition: .5s ease;
+}
+
+.li > .active{
+    color: black;
+}

@@ -1,0 +1,41 @@
+:root{
+    --primary: #7c23cf;
+    --second: #7223cf;
+    --primary-btn: #440f81;
+}
+
+.header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: transparent;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10rem;
+    transition: all .3s ease-in-out;
+}
+
+
+.header > img{
+    width: 120px;
+    height: 120px;
+}
+
+.header nav{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header .ul{
+    display: flex;
+    gap: 2rem;
+}
+
+.header .ul{
+    color: #440f81;
+}
